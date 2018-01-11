@@ -18,6 +18,7 @@ public class SecondActivity extends AppCompatActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.e("SecondActivity ","onCreate");
+
         setContentView(R.layout.activity_second);
         tv_text = findViewById(R.id.tv_text);
         TextView text = new TextView(this);
