@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -20,5 +21,6 @@ public class SecondActivity extends AppCompatActivity{
         Log.e("SecondActivity ","onCreate");
         setContentView(R.layout.activity_second);
         tv_text = findViewById(R.id.tv_text);
+        ImageView imageView = new ImageView(this);
     }
 }
