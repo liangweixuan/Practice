@@ -21,5 +21,6 @@ public class SecondActivity extends AppCompatActivity{
         setContentView(R.layout.activity_second);
         tv_text = findViewById(R.id.tv_text);
         TextView text = new TextView(this);
+
     }
 }
